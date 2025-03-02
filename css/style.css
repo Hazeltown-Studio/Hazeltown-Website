@@ -1,0 +1,204 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft YaHei", sans-serif;
+}
+
+body a {
+	text-decoration: none;
+}
+
+body a:hover {
+	text-decoration: none;
+}
+
+body a:focus, a:hover {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 1px;
+}
+
+p {
+	margin: 0;
+}
+
+ion-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+	outline: none
+}
+
+img {
+	width: 100%;
+}
+
+@media (max-width: 992px) {
+    .main-section, .policy-section {
+        padding: 20px 20px;
+    }
+}
+@media (min-width: 992px) {
+    .main-section {
+        padding: 20px 100px;
+    }
+	.policy-section {
+		padding: 20px 200px;
+	}
+}
+
+.main-page {
+	background-color: #E2CAA7;
+	background-image: url("../images/banner.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-size: auto calc(100vh - 60px);
+    background-position-x: center;
+    background-position-y: calc(50% + 30px);
+}
+
+.fullscreen {
+    top: 0; right: 0; bottom: 0; left: 0;
+    height: 100vh;
+}
+
+.sub-page {
+	background-color: burlywood;
+}
+
+.main-bg, .sub-bg {
+	background-color: burlywood;
+}
+
+.sub-bg {
+	padding-top: 60px;
+}
+
+.section-title {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+/*-- Navbar --*/
+nav {
+	height: 60px;
+	background-color: #ba9661;
+}
+
+nav a:hover {
+	color: #7f7f7f
+}
+
+nav .dropdown-menu {
+	background-color: #ba9661;
+}
+
+nav .dropdown-item:hover {
+	background-color: #856c46;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	color: var(--bs-navbar-active-color);
+	background-color: #ba9661;
+}
+
+/*-- Footer --*/
+.footer-icon {
+    font-size: 20px;
+}
+
+.footer-link {
+    text-decoration: underline;
+	margin-left: 5px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+	color: #222;
+}
+
+.footer {
+	padding: 35px 0px;
+	background-color: #ba9661;
+}
+
+.footer h4 {
+	color: #000;
+	margin-bottom: 15px;
+}
+
+.footer a {
+	color: #000;
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+}
+
+/*-- Games --*/
+.games {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.games .card {
+	padding: 10px;
+	background-color: #0000;
+	border-color: #ba9661;
+	border-width: 2px;
+	width: 15rem;
+	text-align: center;
+    box-shadow: 0 6px 10px #ba96613b, 0 0 6px #ba96612e;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow;
+}
+
+.games .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.05), 0 4px 8px rgba(0,0,0,.02);
+}
+
+.games .card-title {
+	font-weight: bold;
+	padding: 5px 0px;
+}
+
+.games .google-btn {
+	display: inline-block;
+	width: 7rem;
+	transition: .3s transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.games .google-btn:hover {
+	transform: scale(1.05);
+}
+
+/*-- Policy Pages --*/
+.policy-section .last-updated {
+	font-style: italic;
+	padding-bottom: 20px;
+	margin-top: -5px;
+	text-align: center;
+}
+
+.policy-section p {
+	padding-bottom: 10px;
+}
+
+.policy-section h3, .policy-section h5 {
+	padding: 10px 0px;
+}
+
+.policy-section a {
+	color: #222;
+	text-decoration: underline;
+}
