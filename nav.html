@@ -33,10 +33,3 @@
         </div>
     </nav>
 </div>
-
-<script>
-    var loc = window.location.pathname;
-    $('.navbar-nav li').find('a').each(function() {
-        $(this).toggleClass('active', loc.includes($(this).attr('href')));
-    });
-</script>
